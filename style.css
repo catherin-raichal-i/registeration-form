@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #3a7bd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #111;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20px;
+    background-color: #005bbb;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+form {
+    width: 100%;
+}
+
+form .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 12px 0;
+}
+
+.row .input-box {
+    width: calc(100% / 3 - 50px);
+    margin-bottom: 5px;
+}
+
+.row .input-box label {
+    font-weight: 500;
+    font-size: 14px;
+    /* margin-bottom: 5px; */
+}
+
+.row .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    /* border-bottom-width: 2px; */
+    transition: all 0.3s ease;
+    margin-top: 5px;
+}
+
+.row .input-box input:focus,
+.row .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+/* 
+.row label {
+    padding: 10px;
+    font-size: 15px;
+} 
+.row input {
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline-color: #3a7bd5;
+}
+ */
+.btn-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 200px;
+}
+
+button i{
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #005bbb;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration</h2>
+        <form id="registrationForm">
+
+            <!-- Personal Details -->
+            <div>
+                <h3>Personal Details</h3>
+                <div class="row">
+                    <div class="input-box">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-box">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="text" name="mobile" placeholder="Enter mobile number" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="gender">Gender</label>
+                        <input type="text" name="gender" placeholder="Enter your gender" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="occupation">Occupation</label>
+                        <input type="text" name="occupation" placeholder="Enter your occupation" required>
+                    </div>
+                </div>
+
+
+
+                <!-- Identity Details -->
+
+                <div>
+                    <h3>Identity Details</h3>
+                    <div class="row">
+                        <div class="input-box">
+                            <label for="id">ID type</label>
+                            <input type="text" name="id" placeholder="Enter ID type" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="id_number">ID Number</label>
+                            <input type="text" name="id_number" placeholder="Enter ID number" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="authority">Issue Authority</label>
+                            <input type="text" name="authority" placeholder="Enter issue department" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-box">
+                            <label for="state">Issued State</label>
+                            <input type="text" name="state" placeholder="Enter issued state" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="issue">Issue Date</label>
+                            <input type="date" name="issue" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="date" name="expiry" required>
+                        </div>
+                    </div>
+
+
+
+                    <div class="btn-container">
+                        <button type="button" id="nextBtn1">Next <i class="fa-regular fa-paper-plane"></i>
+
+                            <!-- ➤ -->
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+</body>
+
+</html>
